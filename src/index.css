@@ -1,12 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
 @layer base{
-    body {
-        @apply font-[monospace];
-    }
     li {
         @apply px-4;
         @apply cursor-pointer;

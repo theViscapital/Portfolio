@@ -8,7 +8,6 @@ const Work = () => {
         <div className=' max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full w-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#FBB623]'>Work</p>
-                <p className='py-4 text-[#0B0A0A] text-xl font-bold'>Check out some of my recent work</p>
             </div>
 
 {/* GRID CONTAINER */}
