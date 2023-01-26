@@ -1,26 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Coda&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    li {
-        @apply px-4;
-        @apply cursor-pointer;
-    }
+@layer base {
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
 }
 
-.content-div{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: center;
-    height: 250px;
-
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: center;
+  height: 250px;
 }
 
-.content-div:hover{
-    background-image: linear-gradient(
-            rgba(250, 182, 32, 0.8),
-            hsla(41, 95%, 63%, 0.8)
-    ) !important
+.content-div:hover {
+  background-image: linear-gradient(
+    rgba(250, 182, 32, 0.8),
+    hsla(41, 95%, 63%, 0.8)
+  ) !important;
 }
